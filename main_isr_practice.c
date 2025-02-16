@@ -9,7 +9,7 @@ const int BTN_PIN_R = 28;
 int btn_flag;
 
 void btn_callback(uint gpio, uint32_t events) {
-  if (events == 0x4) { // fall edge
+  if (events == 0x4) { // fall edge.
 
     // ERRO: addon IsrPrintf
     printf("btn pressed \n");
